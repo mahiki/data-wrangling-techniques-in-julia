@@ -48,7 +48,7 @@ describe(df)
 
 
 # SELECT
-select(df, Not(), Between() )
+select(df, Not(), Between(), AsTable() )
 
 
 # selecting and removing cols
